@@ -66,4 +66,11 @@ enterpriceNumberUsers = 60;
 console.log(enterpriceNumberUsers);
 const stringEnterpriceUsersCompleted = enterpriceNumberUsers + " " + usersIncludedString;
 console.log(stringEnterpriceUsersCompleted);
-document.getElementById("enterprice-users").innerHTML = stringEnterpriceUsersCompleted
+document.getElementById("enterprice-users").innerHTML = stringEnterpriceUsersCompleted;
+
+let enterpriceGb = proGb * 8;
+enterpriceGb = 80;
+console.log(enterpriceGb);
+const stringEnterpriceGbCompleted = enterpriceGb + " " + gbIncludedString;
+console.log(stringEnterpriceGbCompleted);
+document.getElementById("enterprice-gb").innerHTML = stringEnterpriceGbCompleted;
