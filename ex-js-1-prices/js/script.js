@@ -43,6 +43,28 @@ const stringProGbCompleted = proGb + " " + gbIncludedString;
 console.log(stringProGbCompleted);
 document.getElementById("pro-gb").innerHTML = stringProGbCompleted;
 
+//enterprice-price
+let enterpriceNumberUsers = proNumberUsers * 3;
+enterpriceNumberUsers = 60;
+console.log(enterpriceNumberUsers);
+let enterpricePrice = proPrice * 2;
+enterpricePrice = 30;
+console.log(enterpricePrice);
+let enterpriceGb = proGb * 8;
+enterpriceGb = 80;
+console.log(enterpriceGb);
+
+const stringEnterpricePrice = enterpricePrice + value;
+document.getElementById("enterprice-price").innerHTML = stringEnterpricePrice;
+console.log(stringEnterpricePrice);
+
+const stringEnterpriceUsersCompleted = enterpriceNumberUsers + " " + usersIncludedString;
+console.log(stringEnterpriceUsersCompleted);
+document.getElementById("enterprice-users").innerHTML = stringEnterpriceUsersCompleted;
+
+const stringEnterpriceGbCompleted = enterpriceGb + " " + gbIncludedString;
+console.log(stringEnterpriceGbCompleted);
+document.getElementById("enterprice-gb").innerHTML = stringEnterpriceGbCompleted;
 
 
 
