@@ -1,10 +1,27 @@
+//alert("ciao")
 const baseNumberUsers = 10;
 const baseGb = 2;
+const basePrice = 0;
+const value = "$/mo";
+
 
 const usersIncludedString = 'users included';
 const gbIncludedString = 'GB of storage';
 
-//Tenuto conto che
+const stringbasePrice = value + basePrice;
+document.getElementById("free-price").innerHTML = stringbasePrice;
+
+const stringUserCompleted = baseNumberUsers + " " + usersIncludedString;
+console.log(stringUserCompleted);
+document.getElementById("free-users").innerHTML = stringUserCompleted 
+
+const stringGbCompleted = baseGb + " " + gbIncludedString;
+console.log(stringGbCompleted);
+document.getElementById("free-gb").innerHTML = stringGbCompleted;
+
+
+
+//Tenuto conto che 
 //il piano free ha costo 0, 
 //users 10
 //gb 2
