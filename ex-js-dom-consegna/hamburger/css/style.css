@@ -9,6 +9,11 @@ body {
   overflow-x: hidden;
 }
 
+.hidden {
+  display: none;
+}
+
+
 .btn {
   border: none;
   background-color: transparent;
