@@ -11,3 +11,5 @@ const number1 = document.getElementById("orange");
 console.log(orange);
 const number2 = document.getElementById("blueberries");
 console.log(blueberries);
+const button1 = document.querySelector(".add-item");
+console.log(button1);
