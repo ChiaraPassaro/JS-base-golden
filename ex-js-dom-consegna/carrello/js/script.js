@@ -7,9 +7,42 @@
 
 //alert ("ciao ciao")
 
-const number1 = document.getElementById("orange");
-console.log(orange);
-const number2 = document.getElementById("blueberries");
-console.log(blueberries);
-const button1 = document.querySelector(".add-item");
-console.log(button1);
+
+
+
+const temperatura = prompt("inserisci temperatura");
+
+if (temperatura < 0) {
+    console.log("è sotto lo zero");
+
+} if(temperatura > 30){
+    console.log("é sopra i 30 gradi");
+
+}else {
+    console.log("temperatura normale");
+}
+
+const parola1 = prompt("inserisci una stringa");
+const parola2 = prompt("inserisci una stringa")
+
+if (parola1 === parola2){
+    console.log("le stringhe sono uguali");
+
+} else {
+    console.log("le stringhe sono diverse");
+}
+
+const number = prompt("inserisci un numero");
+
+if (number > 0 ) {
+    console.log("il numero è positivo");
+
+}else if (number < 0 ) {
+    console.log("il numero è negativo");
+
+}else {
+    console.log("il numero è zero");
+}
+
+
+
