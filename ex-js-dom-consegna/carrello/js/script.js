@@ -66,3 +66,16 @@ buttonRemoveItemBlueberries.addEventListener('click',
     priceTotalBlueberries.innerHTML = quantBlueberries * priceBlueberries;
   }
 )
+
+
+
+
+const codiceFiscale = prompt("inserisci il tuo codice fiscale");
+
+
+if (codiceFiscale.length === 16) {
+    console.log("Codice fiscale valido");
+
+}else {
+    console.log("Codice fiscale non valido");
+}
