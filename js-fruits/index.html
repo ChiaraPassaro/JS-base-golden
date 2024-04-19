@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="form">
+    <h1>Select your flavor</h1>
+    <div>
+      <input type="checkbox" id="orange" name="fruit" value="orange">
+      <label for="orange">Orange</label>
+    </div>
+    <div>
+      <input type="checkbox" id="blueberries" name="fruit" value="blueberries">
+      <label for="blueberries">Blueberries</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="apple" name="fruit" value="apple">
+      <label for="apple">Apple</label>
+
+    </div>
+    <button id="select-button">Select Fruit</button>
+
+    <button id="reset-button">Reset Form</button>
+
+    <button id="select-all-button">Select All</button>
+  </div>
+
+  <h2 class="message"></h2>
+
+  <div class="fruits">
+    <div class="img-container orange hidden">
+      <img src="./img/succo-arancia.jpg" alt="">
+    </div>
+    <div class="img-container blueberries hidden">
+      <img src="./img/succo-mirtillo.jpg" alt="">
+    </div>
+    <div class="img-container apple hidden">
+      <img src="./img/succo-mela.jpg" alt="">
+    </div>
+  </div>
+
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
