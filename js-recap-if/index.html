@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container mt-4">
+    <div id="login" class="row">
+      <div class="col">
+        <div class="input-group mb-3">
+          <label class="input-group-text" for="user-name">User Name</label>
+          <input id="user-name" type="text" class="form-control" placeholder="Username" aria-label="Username">
+        </div>
+        <div id="user-name-error" class=" alert alert-danger"></div>
+
+        <div class="input-group mb-3">
+          <label class="input-group-text" for="user-name">Password</label>
+          <input id="password" type="password" class="form-control">
+        </div>
+        <div id="password-error" class=" alert alert-danger "></div>
+
+        <button id="submit" class="btn btn-primary" type="submit">Login</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <h2 id="message"></h2>
+      <button id="logout" class="btn btn-primary d-none" type="submit">logout</button>
+    </div>
+
+  </div>
+  <!-- <script src="./js/script.js"></script> -->
+  <script src="./js/script2.js"></script>
+</body>
+
+</html>
