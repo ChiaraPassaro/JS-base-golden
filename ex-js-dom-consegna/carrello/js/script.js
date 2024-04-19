@@ -90,3 +90,20 @@ if (number2 != 0) {
 }else {
   console.log("non è possibile dividere per 0");
 }
+
+const eta = prompt("inserisci la tua eta");
+console.log(eta);
+
+if (eta >=13 && eta <=19) {
+  console.log("adolescente");
+}else if (eta >= 20 && eta <= 64) {
+  console.log("adulto");
+}else {
+  console.log("anziano");
+}
+
+
+
+
+
+  
