@@ -79,3 +79,14 @@ if (codiceFiscale.length === 16) {
 }else {
     console.log("Codice fiscale non valido");
 }
+
+const number1 = prompt("inserisci il primo numero");
+console.log(number1);
+const number2 = prompt ("inserisci il secondo numero");
+console.log(number2);
+
+if (number2 != 0) {
+  console.log(number1 / number2);
+}else {
+  console.log("non è possibile dividere per 0");
+}
