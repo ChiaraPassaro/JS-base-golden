@@ -55,12 +55,34 @@
     //console.log("il numero è zero");
 //}
 
-const codiceFiscale = prompt("inserisci il tuo codice fiscale");
+//const codiceFiscale = prompt("inserisci il tuo codice fiscale");
+//console.log("codiceFiscale");
+//console.log(codiceFiscale);
+
+//console.log(codiceFiscale.length===16);
 
 
-if (codiceFiscale === 16) {
-    console.log("Codice fiscale valido");
+//if (codiceFiscale.length === 16) {
+    //console.log("Codice fiscale valido");
 
-}else {
-    console.log("Codice fiscale non valido");
-}
+//}else {
+    //console.log("Codice fiscale non valido");
+//}
+
+//const userQi1 = prompt("inserisci un numero");
+//console.log(userQi1);
+//const userQi2 = prompt("inserisci un altro numero");
+//console.log(userQi2);
+
+//userQtotal = userQi1 / userQi2;
+//console.log(userQtotal);
+
+//if (userQi2 != 0) {
+    //console.log(userQtotal);
+
+//}else {
+    //console.log("non è possibile dividere per zero");
+//}
+
+const etaUtente = prompt("inserisci la tua età");
+console.log(etaUtente);
