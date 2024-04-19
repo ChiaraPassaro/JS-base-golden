@@ -94,7 +94,9 @@ if (number2 != 0) {
 const eta = prompt("inserisci la tua eta");
 console.log(eta);
 
-if (eta >=13 && eta <=19) {
+if (eta <=12) {
+  console.log("");
+}else if (eta >=13 && eta <=19) {
   console.log("adolescente");
 }else if (eta >= 20 && eta <= 64) {
   console.log("adulto");
