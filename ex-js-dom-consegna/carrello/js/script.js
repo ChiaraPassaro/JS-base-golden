@@ -87,10 +87,14 @@
 const etaUtente = prompt("inserisci la tua età");
 console.log(etaUtente);
 
-if (etaUtente >=13 && etaUtente <=19) {
+if (etaUtente >=0 || etaUtente <=13) {
+    console.log("");
+
+
+}else if (etaUtente >=13 || etaUtente <=19) {
     console.log("adolescente");
 
-}else if (etaUtente >=20 && etaUtente <=64) {
+}else if (etaUtente >=20 || etaUtente <=64) {
     console.log("adulto");
 
 }else {
