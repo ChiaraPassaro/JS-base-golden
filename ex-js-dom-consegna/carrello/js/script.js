@@ -84,19 +84,32 @@
     //console.log("non è possibile dividere per zero");
 //}
 
-const etaUtente = prompt("inserisci la tua età");
-console.log(etaUtente);
+//const etaUtente = prompt("inserisci la tua età");
+//console.log(etaUtente);
 
-if (etaUtente >=0 || etaUtente <=13) {
-    console.log("");
+//if (etaUtente >=0 || etaUtente <=13) {
+    //console.log("");
 
 
-}else if (etaUtente >=13 || etaUtente <=19) {
-    console.log("adolescente");
+//}else if (etaUtente >=13 || etaUtente <=19) {
+    //console.log("adolescente");
 
-}else if (etaUtente >=20 || etaUtente <=64) {
-    console.log("adulto");
+//}else if (etaUtente >=20 || etaUtente <=64) {
+    //console.log("adulto");
+
+//}else {
+    //console.log( "anziano");
+//}
+
+let min = 0;
+let max = 38;
+let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+
+if (randomNumber < 10) {
+    console.log("cappotto e sciarpa", randomNumber);
+}else if (randomNumber >=10 && randomNumber <=20) {
+    console.log("maglia a manica lunga", randomNumber);
 
 }else {
-    console.log( "anziano");
+    console.log("t-shirt e shorts", randomNumber);
 }
