@@ -67,3 +67,19 @@
 // }
 
 
+const number = 10;
+const number2 = 11;
+
+if (number < number2) {
+  console.log('errore');
+} else {
+  console.log('corretto');
+}
+
+if (!(number < number2)) {
+  console.log('corretto');
+} else {
+   console.log('errore');
+}
+
+// (number < number2) == false
